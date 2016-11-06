@@ -1,0 +1,21 @@
+<form ng-submit='submit()' ng-init='init()' class='form mt-20'>
+  <div class='form-group'>
+    <label for='full-name'>Full name</label>
+    <input class='form-control' type='text' id='full-name' ng-model='signUpForm.full_name'>
+  </div>
+  <div class='form-group'>
+    <label for='email'>Email</label>
+    <input class='form-control' type='text' id='email' ng-model='signUpForm.email' autocomplete='off'>
+  </div>
+  <div class='form-group'>
+    <label for='password'>Password</label>
+    <input class='form-control' type='password' id='password' ng-model='signUpForm.password' autocomplete='off'>
+  </div>
+  <div class='form-group'>
+    <label for='password-confirmation'>Password Confirmation</label>
+    <input class='form-control' type='password' id='password-confirmation' ng-model='signUpForm.password_confirmation'>
+  </div>
+  <div class='form-group'>
+    <input class='btn btn-primary' type='submit' value='Sign up now'>
+  </div>
+</form>
